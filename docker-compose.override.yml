@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  application:
+    environment:
+      - "ASPNETCORE_ENVIRONMENT=Development"
+      - "ASPNETCORE_URLS=http://+:80"
+  database:
+    environment:
+      - "ACCEPT_EULA=Y"
+      - "SA_PASSWORD=Password123!"
